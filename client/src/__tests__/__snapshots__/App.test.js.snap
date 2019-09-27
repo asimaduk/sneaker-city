@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Tests renders without crashing 1`] = `
+<div>
+  <div>
+    <header
+      className="MuiPaper-root MuiPaper-elevation4 MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary"
+    >
+      <div
+        className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
+      >
+        <div
+          className="MuiGrid-root MuiGrid-container"
+        >
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-11"
+            style={
+              Object {
+                "paddingTop": "3px",
+              }
+            }
+          >
+            <h6
+              className="MuiTypography-root MuiTypography-h6"
+              style={
+                Object {
+                  "fontWeight": "500",
+                }
+              }
+            >
+              Sneaker City
+            </h6>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1"
+          >
+            <a
+              className="Cart-Link"
+              href="/cart"
+              onClick={[Function]}
+            >
+              <svg
+                aria-hidden="true"
+                className="MuiSvgIcon-root"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"
+                />
+              </svg>
+               
+              0
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
+  <div>
+    <div
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "height": 300,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <div
+        className="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
+        role="progressbar"
+        style={
+          Object {
+            "height": 40,
+            "width": 40,
+          }
+        }
+      >
+        <svg
+          className="MuiCircularProgress-svg"
+          viewBox="22 22 44 44"
+        >
+          <circle
+            className="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+            cx={44}
+            cy={44}
+            fill="none"
+            r={20.2}
+            strokeWidth={3.6}
+            style={Object {}}
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,804 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddressForm renders without crashing 1`] = `
+<div>
+  <h6
+    className="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom"
+  >
+    Shipping address
+  </h6>
+  <div
+    className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+  >
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+    >
+      <div
+        className="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+      >
+        <label
+          className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated Mui-required Mui-required"
+          data-shrink={false}
+          htmlFor="firstName"
+        >
+          First name
+          <span
+            className="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+          >
+             
+            *
+          </span>
+        </label>
+        <div
+          className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+          onClick={[Function]}
+        >
+          <input
+            aria-invalid={false}
+            autoComplete="fname"
+            className="MuiInputBase-input MuiInput-input"
+            disabled={false}
+            id="firstName"
+            name="firstName"
+            onAnimationStart={[Function]}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            required={true}
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+    >
+      <div
+        className="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+      >
+        <label
+          className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated Mui-required Mui-required"
+          data-shrink={false}
+          htmlFor="lastName"
+        >
+          Last name
+          <span
+            className="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+          >
+             
+            *
+          </span>
+        </label>
+        <div
+          className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+          onClick={[Function]}
+        >
+          <input
+            aria-invalid={false}
+            autoComplete="lname"
+            className="MuiInputBase-input MuiInput-input"
+            disabled={false}
+            id="lastName"
+            name="lastName"
+            onAnimationStart={[Function]}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            required={true}
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <div
+        className="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+      >
+        <label
+          className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated Mui-required Mui-required"
+          data-shrink={false}
+          htmlFor="address1"
+        >
+          Address line 1
+          <span
+            className="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+          >
+             
+            *
+          </span>
+        </label>
+        <div
+          className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+          onClick={[Function]}
+        >
+          <input
+            aria-invalid={false}
+            autoComplete="billing address-line1"
+            className="MuiInputBase-input MuiInput-input"
+            disabled={false}
+            id="address1"
+            name="address1"
+            onAnimationStart={[Function]}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            required={true}
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <div
+        className="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+      >
+        <label
+          className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+          data-shrink={false}
+          htmlFor="address2"
+        >
+          Address line 2
+        </label>
+        <div
+          className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+          onClick={[Function]}
+        >
+          <input
+            aria-invalid={false}
+            autoComplete="billing address-line2"
+            className="MuiInputBase-input MuiInput-input"
+            disabled={false}
+            id="address2"
+            name="address2"
+            onAnimationStart={[Function]}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            required={false}
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+    >
+      <div
+        className="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+      >
+        <label
+          className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated Mui-required Mui-required"
+          data-shrink={false}
+          htmlFor="city"
+        >
+          City
+          <span
+            className="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+          >
+             
+            *
+          </span>
+        </label>
+        <div
+          className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+          onClick={[Function]}
+        >
+          <input
+            aria-invalid={false}
+            autoComplete="billing address-level2"
+            className="MuiInputBase-input MuiInput-input"
+            disabled={false}
+            id="city"
+            name="city"
+            onAnimationStart={[Function]}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            required={true}
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+    >
+      <div
+        className="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+      >
+        <label
+          className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+          data-shrink={false}
+          htmlFor="state"
+        >
+          State/Province/Region
+        </label>
+        <div
+          className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+          onClick={[Function]}
+        >
+          <input
+            aria-invalid={false}
+            className="MuiInputBase-input MuiInput-input"
+            disabled={false}
+            id="state"
+            name="state"
+            onAnimationStart={[Function]}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            required={false}
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+    >
+      <div
+        className="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+      >
+        <label
+          className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated Mui-required Mui-required"
+          data-shrink={false}
+          htmlFor="zip"
+        >
+          Zip / Postal code
+          <span
+            className="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+          >
+             
+            *
+          </span>
+        </label>
+        <div
+          className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+          onClick={[Function]}
+        >
+          <input
+            aria-invalid={false}
+            autoComplete="billing postal-code"
+            className="MuiInputBase-input MuiInput-input"
+            disabled={false}
+            id="zip"
+            name="zip"
+            onAnimationStart={[Function]}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            required={true}
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+    >
+      <div
+        className="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+      >
+        <label
+          className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated Mui-required Mui-required"
+          data-shrink={false}
+          htmlFor="country"
+        >
+          Country
+          <span
+            className="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+          >
+             
+            *
+          </span>
+        </label>
+        <div
+          className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+          onClick={[Function]}
+        >
+          <input
+            aria-invalid={false}
+            autoComplete="billing country"
+            className="MuiInputBase-input MuiInput-input"
+            disabled={false}
+            id="country"
+            name="country"
+            onAnimationStart={[Function]}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            required={true}
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <label
+        className="MuiFormControlLabel-root"
+      >
+        <span
+          aria-disabled={false}
+          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-213 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+          onBlur={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={null}
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <input
+              className="PrivateSwitchBase-input-216"
+              data-indeterminate={false}
+              name="saveAddress"
+              onChange={[Function]}
+              type="checkbox"
+              value="yes"
+            />
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+              />
+            </svg>
+          </span>
+        </span>
+        <span
+          className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+        >
+          Use this address for payment details
+        </span>
+      </label>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`PaymentForm renders without crashing 1`] = `
+<div>
+  <h6
+    className="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom"
+  >
+    Payment method
+  </h6>
+  <div
+    className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+  >
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6"
+    >
+      <div
+        className="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+      >
+        <label
+          className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated Mui-required Mui-required"
+          data-shrink={false}
+          htmlFor="cardName"
+        >
+          Name on card
+          <span
+            className="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+          >
+             
+            *
+          </span>
+        </label>
+        <div
+          className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+          onClick={[Function]}
+        >
+          <input
+            aria-invalid={false}
+            className="MuiInputBase-input MuiInput-input"
+            disabled={false}
+            id="cardName"
+            onAnimationStart={[Function]}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            required={true}
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6"
+    >
+      <div
+        className="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+      >
+        <label
+          className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated Mui-required Mui-required"
+          data-shrink={false}
+          htmlFor="cardNumber"
+        >
+          Card number
+          <span
+            className="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+          >
+             
+            *
+          </span>
+        </label>
+        <div
+          className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+          onClick={[Function]}
+        >
+          <input
+            aria-invalid={false}
+            className="MuiInputBase-input MuiInput-input"
+            disabled={false}
+            id="cardNumber"
+            onAnimationStart={[Function]}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            required={true}
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6"
+    >
+      <div
+        className="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+      >
+        <label
+          className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated Mui-required Mui-required"
+          data-shrink={false}
+          htmlFor="expDate"
+        >
+          Expiry date
+          <span
+            className="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+          >
+             
+            *
+          </span>
+        </label>
+        <div
+          className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+          onClick={[Function]}
+        >
+          <input
+            aria-invalid={false}
+            className="MuiInputBase-input MuiInput-input"
+            disabled={false}
+            id="expDate"
+            onAnimationStart={[Function]}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            required={true}
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6"
+    >
+      <div
+        className="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+      >
+        <label
+          className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated Mui-required Mui-required"
+          data-shrink={false}
+          htmlFor="cvv"
+        >
+          CVV
+          <span
+            className="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+          >
+             
+            *
+          </span>
+        </label>
+        <div
+          className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+          onClick={[Function]}
+        >
+          <input
+            aria-describedby="cvv-helper-text"
+            aria-invalid={false}
+            className="MuiInputBase-input MuiInput-input"
+            disabled={false}
+            id="cvv"
+            onAnimationStart={[Function]}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            required={true}
+            type="text"
+            value=""
+          />
+        </div>
+        <p
+          className="MuiFormHelperText-root Mui-required"
+          id="cvv-helper-text"
+        >
+          Last three digits on signature strip
+        </p>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <label
+        className="MuiFormControlLabel-root"
+      >
+        <span
+          aria-disabled={false}
+          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-213 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+          onBlur={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={null}
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <input
+              className="PrivateSwitchBase-input-216"
+              data-indeterminate={false}
+              name="saveCard"
+              onChange={[Function]}
+              type="checkbox"
+              value="yes"
+            />
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+              />
+            </svg>
+          </span>
+          <span
+            className="MuiTouchRipple-root"
+          />
+        </span>
+        <span
+          className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+        >
+          Remember credit card details for next time
+        </span>
+      </label>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Product renders without crashing 1`] = `null`;
+
+exports[`ProductList renders without crashing 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "height": 300,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <div
+      className="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
+      role="progressbar"
+      style={
+        Object {
+          "height": 40,
+          "width": 40,
+        }
+      }
+    >
+      <svg
+        className="MuiCircularProgress-svg"
+        viewBox="22 22 44 44"
+      >
+        <circle
+          className="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+          cx={44}
+          cy={44}
+          fill="none"
+          r={20.2}
+          strokeWidth={3.6}
+          style={Object {}}
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ReviewOrder renders without crashing 1`] = `
+Array [
+  <h6
+    className="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom"
+  >
+    Order summary
+  </h6>,
+  <ul
+    className="MuiList-root"
+  >
+    <li
+      className="MuiListItem-root makeStyles-listItem-256 MuiListItem-gutters"
+      disabled={false}
+    >
+      <div
+        className="MuiListItemText-root"
+      >
+        <span
+          className="MuiTypography-root MuiListItemText-primary MuiTypography-body1"
+        >
+          Total
+        </span>
+      </div>
+      <h6
+        className="MuiTypography-root makeStyles-total-257 MuiTypography-subtitle1"
+      >
+        $ 
+        0
+      </h6>
+    </li>
+  </ul>,
+  <div
+    className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2"
+  >
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+    >
+      <h6
+        className="MuiTypography-root makeStyles-title-258 MuiTypography-h6 MuiTypography-gutterBottom"
+      >
+        Shipping
+      </h6>
+      <p
+        className="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+      >
+         
+      </p>
+      <p
+        className="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+      >
+         
+      </p>
+      <p
+        className="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+      />
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+    >
+      <h6
+        className="MuiTypography-root makeStyles-title-258 MuiTypography-h6 MuiTypography-gutterBottom"
+      >
+        Payment details
+      </h6>
+      <div
+        className="MuiGrid-root MuiGrid-container"
+      >
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+          >
+            Card type
+          </p>
+        </div>
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+          >
+            Visa
+          </p>
+        </div>
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+          >
+            Card holder
+          </p>
+        </div>
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+          >
+            
+          </p>
+        </div>
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+          >
+            Card number
+          </p>
+        </div>
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+          >
+            
+          </p>
+        </div>
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+          >
+            Expiry date
+          </p>
+        </div>
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+          >
+            
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
